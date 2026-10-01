@@ -1,37 +1,37 @@
 ============================================================
            KET QUA PHAN TICH AN TOAN & MA DOC
 ============================================================
- Tong so mau phan tich : 11,598 mau
- Tong so MA DOC        : 10,625 mau ( 91.6%)
- Tong so MA AN TOAN    : 973 mau (  8.4%)
+ Tong so mau phan tich : 1,740 mau
+ Tong so MA DOC        : 1,476 mau ( 84.8%)
+ Tong so MA AN TOAN    : 264 mau ( 15.2%)
 ------------------------------------------------------------
  CHI TIET TUNG LOAI DU DOAN:
-  [!] Adware             (Ma doc):  1560 mau ( 13.5%)
-  [!] Banking            (Ma doc):   163 mau (  1.4%)
-  [!] SMS Malware        (Ma doc):   142 mau (  1.2%)
-  [!] Riskware           (Ma doc):  8760 mau ( 75.5%)
-  [OK] Benign             (Ma an toan):   973 mau (  8.4%)
+  [!] Adware             (Ma doc):   248 mau ( 14.3%)
+  [!] Banking            (Ma doc):   285 mau ( 16.4%)
+  [!] SMS Malware        (Ma doc):   634 mau ( 36.4%)
+  [!] Riskware           (Ma doc):   309 mau ( 17.8%)
+  [OK] Benign             (Ma an toan):   264 mau ( 15.2%)
 ============================================================
 
 IE105 — Chi tiet Metrics danh gia:
 =================================================================
-Source Data       : 139_extracted features.csv
-Total Samples     : 11598
-Accuracy          : 29.7810%
-Macro Precision   : 0.5235
-Macro Recall      : 0.2963
-Macro F1-Score    : 0.2281
-Weighted F1-Score : 0.2175
-Macro ROC-AUC     : 0.7364
+Source Data       : images_22x22.npz
+Total Samples     : 1740
+Accuracy          : 86.2069%
+Macro Precision   : 0.8487
+Macro Recall      : 0.8473
+Macro F1-Score    : 0.8426
+Weighted F1-Score : 0.8632
+Macro ROC-AUC     : 0.9748
 
               precision    recall  f1-score   support
 
-      Adware     0.0244    0.0303    0.0270      1253
-     Banking     0.6748    0.0524    0.0972      2100
- SMS Malware     0.9014    0.0328    0.0633      3904
-    Riskware     0.2811    0.9670    0.4355      2546
-      Benign     0.7359    0.3989    0.5173      1795
+      Adware     0.6331    0.8351    0.7202       188
+     Banking     0.8982    0.8127    0.8533       315
+ SMS Malware     0.8880    0.9608    0.9230       586
+    Riskware     0.9417    0.7618    0.8423       382
+      Benign     0.8826    0.8662    0.8743       269
 
-    accuracy                         0.2978     11598
-   macro avg     0.5235    0.2963    0.2281     11598
-weighted avg     0.6038    0.2978    0.2175     11598
+    accuracy                         0.8621      1740
+   macro avg     0.8487    0.8473    0.8426      1740
+weighted avg     0.8733    0.8621    0.8632      1740
